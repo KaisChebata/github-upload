@@ -5,6 +5,6 @@ try:
 except FileNotFoundError as file_error:
     print(f'{file_error}')
 
-
+print('this is where we should greetings')
 print(greetings_msg)
 
