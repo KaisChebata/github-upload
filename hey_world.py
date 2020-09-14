@@ -6,5 +6,6 @@ except FileNotFoundError as file_error:
     print(f'{file_error}')
 
 print('this is where we should greetings')
-print(greetings_msg)
+name = input('tell us your name, and give greetings ... ')
+print(f'I am {name}, {greetings_msg}')
 
